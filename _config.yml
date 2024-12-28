@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "BodongLog"
 title_separator          : "Record what you have studied."
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "BS Seo"
 description              : "An amazing website."
 url                      : "https://B-logg.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
