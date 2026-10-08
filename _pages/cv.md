@@ -12,21 +12,31 @@ redirect_from:
 <style>
 .cv-table {
   width: 100%;
+  border: none !important;
   border-collapse: collapse;
+  background: transparent !important;
   margin-bottom: 2rem;
 }
 
+.cv-table tr,
+.cv-table th,
 .cv-table td {
-  border: none;
-  padding: 0.35rem 0;
+  border: none !important;
+  background: transparent !important;
+  color: inherit !important;
+  box-shadow: none !important;
+}
+
+.cv-table td {
+  padding: 0.45rem 0;
   vertical-align: top;
 }
 
 .cv-date {
   width: 25%;
   padding-right: 2rem !important;
-  color: #777;
   white-space: nowrap;
+  opacity: 0.65;
 }
 
 .cv-content {
@@ -35,11 +45,11 @@ redirect_from:
 
 .cv-title {
   font-weight: 600;
-  color: #333;
+  color: inherit !important;
 }
 
 .cv-subtitle {
-  color: #666;
+  opacity: 0.7;
   font-size: 0.95em;
 }
 
@@ -87,7 +97,6 @@ redirect_from:
 
 <table class="cv-table">
   <tr>
-    <td class="cv-date">2026</td>
     <td class="cv-content">
       <div class="cv-title">World Model-Based End-to-End Autonomous Drone Racing</div>
       <div class="cv-link">
@@ -97,7 +106,6 @@ redirect_from:
   </tr>
 
   <tr>
-    <td class="cv-date">2026</td>
     <td class="cv-content">
       <div class="cv-title">Optimizing VLM Encoding for Efficient Video Question Answering</div>
       <div class="cv-link">
@@ -107,7 +115,6 @@ redirect_from:
   </tr>
 
   <tr>
-    <td class="cv-date">2025</td>
     <td class="cv-content">
       <div class="cv-title">Forest Carbon Stock Estimation via Reasoning Segmentation Using GLaMM</div>
       <div class="cv-link">
@@ -117,7 +124,6 @@ redirect_from:
   </tr>
 
   <tr>
-    <td class="cv-date">2025</td>
     <td class="cv-content">
       <div class="cv-title">Object Detection and Tracking for Precision Landing Guidance of Robotic Aircraft</div>
       <div class="cv-link">
@@ -127,7 +133,6 @@ redirect_from:
   </tr>
 
   <tr>
-    <td class="cv-date">2024</td>
     <td class="cv-content">
       <div class="cv-title">Toxic Comment Detection and Multi-Category Classification</div>
       <div class="cv-link">
@@ -137,7 +142,6 @@ redirect_from:
   </tr>
 
   <tr>
-    <td class="cv-date">2023</td>
     <td class="cv-content">
       <div class="cv-title">Academic Planning and Personalized Course Recommendation Platform</div>
       <div class="cv-link">
@@ -147,7 +151,7 @@ redirect_from:
   </tr>
 </table>
 
-## Technical Skills
+## Skills
 
 <table class="cv-table">
   <tr>
