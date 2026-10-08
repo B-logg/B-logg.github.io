@@ -48,7 +48,7 @@ Project experience
 * Academic Planning and Personalized Course Recommendation Platform
   * Project Page: https://github.com/B-logg/timeZ
 
-\
+
 
 Skills
 ======
