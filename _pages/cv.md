@@ -11,54 +11,46 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
+B.S. in Artificial Intelligence Engineering
+INHA University, Incheon, South Korea
+
+2022.02 - Present 
+GPA 4.35/4.5 (1/55)
+
+Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+*  2026.06 - Present: Research Intern
+  * Computer Vision Lab, POSTECH(Pohang University of Science and Technology)
+  * Advised by Prof. Suha Kwak
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2025.12 - 2026.06: Research Intern
+  * NAIS Lab, INHA University
+  * Advised by Prof. Jaehong Kim
+ 
+Project experience
+======
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* C++
+* Python
+  * Pytorch
+  * scikit-learn
+* OpenCV
+* Pandas, numpy
+* Git, Docker, Linux, MySQL
 
-Publications
+Awards
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* Academic Excellence Award, Inha University Aug 2026
+* Academic Excellence Award, Inha University Feb 2026
+* Academic Excellence Award, Inha University Aug 2025
+* Academic Excellence Award, Inha University Aug 2023
+* Academic Excellence Award, Inha University Aug 2022
+
+
+Certification
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 2023.04: 정보처리기능사
