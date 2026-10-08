@@ -4,8 +4,7 @@
 /*
  * This file controls what is imported from /_sass
  *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * Note that the files are processed in the order they are imported.
  */
 
 @import
@@ -36,6 +35,7 @@
     "layout/archive",
     "layout/sidebar",
     "layout/json_cv"
+;
 
 /* Move the theme toggle to the right side of the masthead */
 @media screen and (min-width: 769px) {
@@ -49,4 +49,3 @@
     margin-left: auto;
   }
 }
-;
