@@ -50,7 +50,7 @@
   flex-shrink: 0;
 }
 
-/* Sticky footer layout without fixed positioning */
+/* Sticky footer layout without breaking the main layout */
 html,
 body {
   min-height: 100%;
@@ -62,14 +62,12 @@ body {
   flex-direction: column;
 }
 
-/* Main content fills the remaining viewport height */
+/* Preserve the original Academic Pages layout */
 body > #main {
   flex: 1 0 auto;
-  width: auto;
-  float: none !important;
 }
 
-/* Footer stays at the bottom on short pages */
+/* Keep the footer at the bottom on short pages */
 body > .page__footer {
   margin-top: auto;
 }
