@@ -68,9 +68,17 @@
   white-space: nowrap;
 }
 
-/* Add spacing between site title, About, and CV */
+/* Add spacing between navigation items */
 .simple-nav .visible-links > li + li {
   margin-left: 1.5rem;
+}
+
+/* Align About with the main CV content */
+@media screen and (min-width: 769px) {
+  .simple-nav .masthead__menu-item--lg
+    + .masthead__menu-item {
+    margin-left: 5rem !important;
+  }
 }
 
 /* Keep the theme toggle at the far right */
@@ -80,7 +88,7 @@
   flex: 0 0 auto;
 }
 
-/* Use the theme's normal text color instead of blue */
+/* Use the theme's normal text color */
 .simple-nav a,
 .simple-nav a:visited,
 .simple-nav a:hover,
