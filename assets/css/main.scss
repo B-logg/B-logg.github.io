@@ -37,7 +37,9 @@
     "layout/json_cv"
 ;
 
-/* Custom layout fixes */
+/* ================================
+   Custom layout fixes
+   ================================ */
 
 /* Keep the footer in normal document flow */
 .page__footer {
@@ -47,45 +49,63 @@
   width: 100%;
 }
 
-/* Desktop navigation layout */
-@media screen and (min-width: 769px) {
-  .masthead__menu {
-    width: 100%;
+/* Custom navigation layout */
+.simple-nav {
+  width: 100%;
+}
+
+.simple-nav .visible-links {
+  display: flex !important;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.simple-nav .visible-links > li {
+  display: block !important;
+  white-space: nowrap;
+}
+
+/* Site title */
+.simple-nav .masthead__menu-item--lg {
+  margin-right: 2rem;
+}
+
+/* Move only the theme toggle to the right */
+.simple-nav #theme-toggle {
+  display: block !important;
+  margin-left: auto !important;
+  flex: 0 0 auto;
+}
+
+.simple-nav #theme-toggle a {
+  cursor: pointer;
+}
+
+/* Prevent unwanted menu styles */
+.simple-nav ul {
+  list-style: none;
+}
+
+.simple-nav .hidden-links,
+.simple-nav > button {
+  display: none !important;
+}
+
+/* Mobile layout */
+@media screen and (max-width: 768px) {
+  .simple-nav .visible-links {
+    flex-wrap: wrap;
+    gap: 0.8rem;
   }
 
-  .masthead .greedy-nav {
-    display: flex !important;
-    align-items: center;
-    width: 100%;
+  .simple-nav .masthead__menu-item--lg {
+    margin-right: 1rem;
   }
 
-  /* Keep About and CV visible */
-  .masthead .greedy-nav .visible-links {
-    display: flex !important;
-    align-items: center;
-    flex: 1 1 auto;
-    width: 100%;
-    overflow: visible !important;
-  }
-
-  .masthead .greedy-nav .visible-links > li {
-    display: block !important;
-  }
-
-  /* Hide the hamburger menu on desktop */
-  .masthead .greedy-nav > button {
-    display: none !important;
-  }
-
-  /* Hide the collapsed menu on desktop */
-  .masthead .greedy-nav .hidden-links {
-    display: none !important;
-  }
-
-  /* Move only the dark mode button to the right */
-  .masthead .greedy-nav #theme-toggle {
-    display: block !important;
+  .simple-nav #theme-toggle {
     margin-left: auto !important;
-    flex: 0 0 auto;
   }
 }
