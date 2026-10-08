@@ -9,59 +9,56 @@ redirect_from:
 
 <style>
 .about-lead {
-  margin: 1.5rem 0 2.5rem;
-  padding: 1.2rem 1.4rem;
+  margin: 1.5rem 0 2.2rem;
+  padding: 1.15rem 1.35rem;
   border-left: 3px solid #888;
-  background: transparent;
   font-size: 1.05em;
   line-height: 1.8;
 }
 
-.about-section {
-  margin-top: 2.5rem;
+.about-text {
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
 }
 
-.about-section h2 {
-  margin-bottom: 1rem;
-}
-
-.about-section h3 {
-  margin-top: 1.5rem;
-  margin-bottom: 0.8rem;
-}
-
-.interest-intro {
-  margin-bottom: 1.5rem;
+.research-intro {
+  margin: 1.2rem 0 1.5rem;
   line-height: 1.8;
 }
 
 .interest-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
-  margin: 1.5rem 0 2rem;
+  margin: 1.5rem 0 2.2rem;
 }
 
-.interest-item {
-  padding: 1rem 0.9rem;
-  border-top: 1px solid rgba(128, 128, 128, 0.45);
+.interest-card {
+  min-height: 88px;
+  padding: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.45);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   font-weight: 600;
   color: inherit !important;
+  background: transparent !important;
+  box-sizing: border-box;
 }
 
-.about-conclusion {
-  margin-top: 2rem;
+.research-conclusion {
   line-height: 1.8;
 }
 
 @media screen and (max-width: 700px) {
   .interest-grid {
     grid-template-columns: 1fr;
-    gap: 0;
   }
 
-  .interest-item {
-    padding: 0.8rem 0;
+  .interest-card {
+    min-height: 64px;
   }
 }
 </style>
@@ -69,29 +66,27 @@ redirect_from:
 ## About Me
 
 <div class="about-lead">
-I am an undergraduate student in the Department of Artificial Intelligence at Inha University.
+I am an undergraduate student in the Dept. of Artificial Intelligence at Inha University.
 </div>
 
-I am interested in studying artificial intelligence and building intelligent agents capable of operating in real-world environments. In particular, I focus on developing AI systems that can perceive, reason, and act effectively in complex environments.
+<p class="about-text">
+I am interested in studying artificial intelligence and building intelligent agents that can operate in real-world environments. In particular, I focus on developing AI systems that can perceive, reason, and act effectively in complex environments.
+</p>
 
 ## Research Interests
 
-<div class="about-section">
+<h3>Embodied AI &amp; Computer Vision</h3>
 
-### Embodied AI + Computer Vision
-
-<p class="interest-intro">
-Combining visual perception with embodied interaction to build intelligent agents that can understand and act in real-world environments.
+<p class="research-intro">
+Combining visual perception with embodied interaction to develop intelligent agents capable of understanding and acting in real-world environments.
 </p>
 
 <div class="interest-grid">
-  <div class="interest-item">Latent World Models</div>
-  <div class="interest-item">Vision-Language Models</div>
-  <div class="interest-item">Multimodal Learning</div>
+  <div class="interest-card">Latent World Models</div>
+  <div class="interest-card">Vision-Language Models</div>
+  <div class="interest-card">Multimodal Learning</div>
 </div>
 
-<p class="about-conclusion">
-More broadly, I am interested in developing AI systems that can reason efficiently and accurately, which I explore through coursework, research projects, and hands-on experimentation.
+<p class="research-conclusion">
+More broadly, I am interested in how intelligent systems can reason efficiently and accurately, and I explore these questions through coursework, research projects, and hands-on experimentation.
 </p>
-
-</div>
