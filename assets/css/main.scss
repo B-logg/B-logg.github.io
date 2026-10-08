@@ -50,7 +50,7 @@
   flex-shrink: 0;
 }
 
-/* Sticky footer layout without breaking the main layout */
+/* Sticky footer layout */
 html,
 body {
   min-height: 100%;
@@ -65,6 +65,10 @@ body {
 /* Preserve the original Academic Pages layout */
 body > #main {
   flex: 1 0 auto;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 /* Keep the footer at the bottom on short pages */
