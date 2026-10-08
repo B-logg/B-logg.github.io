@@ -32,19 +32,19 @@ Project experience
 ======
 * World Model Based End-to-End Autonomous Drone Racing
   * Project Page: https://github.com/B-logg/E2E-Autonomous-DroneRacing
-\
+
 * Optimizing VLM Encoding Progress for Efficient Video Question Answering
   * Project Page: https://github.com/B-logg/EfficiencyVLM/tree/main
-\
+
 * Forest Carbon Stock Estimation via Reasoning Segmentation using GLaMM
   * Project Page: https://github.com/B-logg/Forest-Carbon-Stock-Estimation-via-Reasoning-Segmentation-using-GLaMM
-\
+
 * Object Detection and Tracking for Precision Landing Guidance of Robotic Aircraft
   * Project Page: https://github.com/B-logg/V_marker_detection
-\
+
 * Toxic Comment Detection and Multi-category Classification
   * Project Page: https://github.com/B-logg/Malicious_Comment_Classification
-\
+
 * Academic Planning and Personalized Course Recommendation Platform
   * Project Page: https://github.com/B-logg/timeZ
 
@@ -59,7 +59,7 @@ Skills
 * OpenCV
 * Pandas, numpy
 * Git, Docker, Linux, MySQL
-\
+
 Awards
 ======
 * Academic Excellence Award, Inha University Aug 2026
@@ -67,7 +67,7 @@ Awards
 * Academic Excellence Award, Inha University Aug 2025
 * Academic Excellence Award, Inha University Aug 2023
 * Academic Excellence Award, Inha University Aug 2022
-\
+
 
 Certification
 ======
