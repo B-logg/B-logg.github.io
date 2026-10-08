@@ -49,7 +49,7 @@
   width: 100%;
 }
 
-/* Custom navigation layout */
+/* Navigation layout */
 .simple-nav {
   width: 100%;
 }
@@ -68,27 +68,28 @@
   white-space: nowrap;
 }
 
-/* Site title */
-.simple-nav .masthead__menu-item--lg {
-  margin-right: 2rem;
+/* Add spacing between site title, About, and CV */
+.simple-nav .visible-links > li + li {
+  margin-left: 1.5rem;
 }
 
-/* Move only the theme toggle to the right */
+/* Keep the theme toggle at the far right */
 .simple-nav #theme-toggle {
   display: block !important;
   margin-left: auto !important;
   flex: 0 0 auto;
 }
 
-.simple-nav #theme-toggle a {
-  cursor: pointer;
+/* Use the theme's normal text color instead of blue */
+.simple-nav a,
+.simple-nav a:visited,
+.simple-nav a:hover,
+.simple-nav a:focus,
+.simple-nav #theme-icon {
+  color: var(--global-text-color) !important;
 }
 
-/* Prevent unwanted menu styles */
-.simple-nav ul {
-  list-style: none;
-}
-
+/* Remove unwanted menu elements */
 .simple-nav .hidden-links,
 .simple-nav > button {
   display: none !important;
@@ -101,8 +102,8 @@
     gap: 0.8rem;
   }
 
-  .simple-nav .masthead__menu-item--lg {
-    margin-right: 1rem;
+  .simple-nav .visible-links > li + li {
+    margin-left: 0;
   }
 
   .simple-nav #theme-toggle {
