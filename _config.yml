@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "ko-KR"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "BOSUNG SEO / CV"
+title                    : "BOSUNG SEO"
 title_separator          : "-"
 name                     : &name "BOSUNG SEO"
 description              : &description "BOSUNG's CV"   # Update this with a general description of your site, this is the default if not overridden by a page
