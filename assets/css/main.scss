@@ -37,15 +37,37 @@
     "layout/json_cv"
 ;
 
-/* Move the theme toggle to the right side of the masthead */
+/* Custom layout fixes */
+
+/* Keep the footer in normal document flow */
+.page__footer {
+  position: static !important;
+  bottom: auto !important;
+  float: none !important;
+  width: 100%;
+}
+
+/* Align the theme toggle to the right side */
 @media screen and (min-width: 769px) {
-  .masthead .greedy-nav .visible-links {
-    display: flex;
+  .masthead__menu {
+    width: 100%;
+  }
+
+  .masthead .greedy-nav {
+    display: flex !important;
     align-items: center;
     width: 100%;
   }
 
+  .masthead .greedy-nav .visible-links {
+    display: flex !important;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 100%;
+  }
+
   .masthead .greedy-nav #theme-toggle {
-    margin-left: auto;
+    margin-left: auto !important;
+    flex: 0 0 auto;
   }
 }
