@@ -36,4 +36,17 @@
     "layout/archive",
     "layout/sidebar",
     "layout/json_cv"
+
+/* Move the theme toggle to the right side of the masthead */
+@media screen and (min-width: 769px) {
+  .masthead .greedy-nav .visible-links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .masthead .greedy-nav #theme-toggle {
+    margin-left: auto;
+  }
+}
 ;
