@@ -183,6 +183,15 @@ redirect_from:
       <div class="cv-subtitle">• Backend Development</div>
     </td>
   </tr>
+
+  <tr>
+    <td class="cv-date">Mar 2022 – Dec 2022</td>
+    <td class="cv-content">
+      <div class="cv-title">INCOM</div>
+      <div class="cv-subtitle">• Inha University Computer Science Club</div>
+      <div class="cv-subtitle">• Coding Study</div>
+    </td>
+  </tr>
 </table>
 
 ## Skills
