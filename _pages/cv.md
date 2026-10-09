@@ -151,6 +151,40 @@ redirect_from:
   </tr>
 </table>
 
+## Activities
+
+<table class="cv-table">
+  <tr>
+    <td class="cv-date">Sep 2026 – Present</td>
+    <td class="cv-content">
+      <div class="cv-title">SINSA</div>
+      <div class="cv-subtitle">• Inha University Artificial Intelligence Society</div>
+      <div class="cv-subtitle">• CS231n Study Group</div>
+      <div class="cv-subtitle">• Study Group on MIT's Diffusion Models Lectures</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="cv-date">Jan 2026 – Present</td>
+    <td class="cv-content">
+      <div class="cv-title">IN-AIR</div>
+      <div class="cv-subtitle">• Inha University Unmanned Aerial Vehicle (UAV) Research Club</div>
+      <div class="cv-subtitle">• Precision Landing Guidance for Robotic Aircraft</div>
+      <div class="cv-subtitle">• Autonomous Drone Racing</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="cv-date">Jan 2025 – Dec 2025</td>
+    <td class="cv-content">
+      <div class="cv-title">멋쟁이 사자처럼</div>
+      <div class="cv-subtitle">• 멋사대학, 연합동아리</div>
+      <div class="cv-subtitle">• Service Development</div>
+      <div class="cv-subtitle">• Backend Development</div>
+    </td>
+  </tr>
+</table>
+
 ## Skills
 
 <table class="cv-table">
