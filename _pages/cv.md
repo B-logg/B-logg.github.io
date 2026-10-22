@@ -75,11 +75,14 @@ redirect_from:
 
 <table class="cv-table">
   <tr>
-    <td class="cv-date">Jun 2026 – Present</td>
+    <td class="cv-date">Jun 2026 – Aug 2026</td>
     <td class="cv-content">
-      <div class="cv-title">Research Intern</div>
+      <div class="cv-title">Summer Research Fellowship (SURF)</div>
       <div class="cv-subtitle">Computer Vision Lab, POSTECH</div>
       <div class="cv-subtitle">Advised by Prof. Suha Kwak</div>
+      <div class="cv-subtitle">
+        <strong>Research Focus:</strong> Latent World Models · Efficient AI
+      </div>
     </td>
   </tr>
 
@@ -89,6 +92,9 @@ redirect_from:
       <div class="cv-title">Research Intern</div>
       <div class="cv-subtitle">NAIS Lab, Inha University</div>
       <div class="cv-subtitle">Advised by Prof. Jaehong Kim</div>
+      <div class="cv-subtitle">
+        <strong>Research Focus:</strong> Multimodal Learning · Vision-Language Models · Efficient AI
+      </div>
     </td>
   </tr>
 </table>
