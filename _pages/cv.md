@@ -81,7 +81,7 @@ redirect_from:
       <div class="cv-subtitle">Computer Vision Lab, POSTECH</div>
       <div class="cv-subtitle">Advised by Prof. Suha Kwak</div>
       <div class="cv-subtitle">
-        <strong>Research Focus:</strong> Latent World Models · Efficient AI
+        <strong>Research Topic:</strong> Latent World Models · Efficient AI
       </div>
     </td>
   </tr>
@@ -93,7 +93,7 @@ redirect_from:
       <div class="cv-subtitle">NAIS Lab, Inha University</div>
       <div class="cv-subtitle">Advised by Prof. Jaehong Kim</div>
       <div class="cv-subtitle">
-        <strong>Research Focus:</strong> Multimodal Learning · Vision-Language Models · Efficient AI
+        <strong>Research Topic:</strong> Multimodal Learning · Vision-Language Models · Efficient AI
       </div>
     </td>
   </tr>
@@ -165,8 +165,8 @@ redirect_from:
     <td class="cv-content">
       <div class="cv-title">SINSA</div>
       <div class="cv-subtitle">• Inha University Artificial Intelligence Society</div>
-      <div class="cv-subtitle">• CS231n Study Group</div>
-      <div class="cv-subtitle">• Study Group on MIT's Diffusion Models Lectures</div>
+      <div class="cv-subtitle">• Stanford CS231n (Deep Learning for Computer Vision) Study Group</div>
+      <div class="cv-subtitle">• MIT S184 (Flow Matching and Diffusion Models) Study Group</div>
     </td>
   </tr>
 
