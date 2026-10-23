@@ -151,7 +151,7 @@ redirect_from:
         • Designed an architecture for carbon stock estimation that segments vegetation in aerial and drone imagery and generates textual explanations of the segmentation results.
       </div>
       <div class="cv-subtitle">
-        • Utilized GLaMM and U-Net, and constructed training data by processing imagery and tree-level metadata.
+        • Utilized GLaMM and U-Net, and constructed training data by processing imagery and tree metadata.
       </div>
       <div class="cv-link">
         <a href="https://github.com/B-logg/Forest-Carbon-Stock-Estimation-via-Reasoning-Segmentation-using-GLaMM" target="_blank">
