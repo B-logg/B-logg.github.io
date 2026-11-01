@@ -82,9 +82,9 @@ Combining visual perception with embodied interaction to develop intelligent age
 </p>
 
 <div class="interest-grid">
-  <div class="interest-card">Latent World Models</div>
-  <div class="interest-card">Vision-Language Models</div>
-  <div class="interest-card">Multimodal Learning</div>
+  <div class="interest-card">World Models</div>
+  <div class="interest-card">Long-horizon Planning</div>
+  <div class="interest-card">Efficient Inference</div>
 </div>
 
 <p class="research-conclusion">
