@@ -1,0 +1,8 @@
+--- layout: default ---
+{% if page.collection == 'projects' %} ← All projects {% endif %}
+{{ page.title | escape }}
+{% if page.description %}
+{{ page.description | escape }}
+
+{% endif %}
+{{ content }}
