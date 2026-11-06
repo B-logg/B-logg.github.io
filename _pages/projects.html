@@ -1,0 +1,5 @@
+--- layout: projects title: "Projects" description: "Research and development projects in artificial intelligence." permalink: /projects/ author_profile: false --- {% assign projects = site.projects | sort: 'order' %}
+{% for project in projects %} {% include project-card.html project=project %} {% else %}
+Projects will be added soon.
+
+{% endfor %}
