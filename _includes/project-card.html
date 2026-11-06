@@ -1,0 +1,14 @@
+{% assign project = include.project %}
+{% if project.featured and project.gallery.size > 0 %} {% for media in project.gallery limit:3 %} {% if media.type == 'video' %}  {% else %} {{ media.alt | default: project.title | escape }} {% endif %} {% endfor %} {% elsif project.thumbnail %} {{ project.thumbnail_alt | default: project.title | escape }} {% else %}
+{{ project.title | escape }}
+{% endif %} See Project →
+{{ project.title | escape }}
+{% if project.tags.size > 0 %}
+{% for tag in project.tags %}
+#{{ tag | escape }}
+{% endfor %}
+{% endif %}
+{% if project.description %}
+{{ project.description | escape }}
+
+{% endif %}
