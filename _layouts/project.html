@@ -1,0 +1,20 @@
+--- layout: projects ---
+{% if page.tags.size > 0 %}
+{% for tag in page.tags %}
+#{{ tag | escape }}
+{% endfor %}
+{% endif %} {% if page.period or page.role or page.team %}
+{% if page.period %}
+Period
+{{ page.period | escape }}
+{% endif %} {% if page.role %}
+My role
+{{ page.role | escape }}
+{% endif %} {% if page.team %}
+Team
+{{ page.team | escape }}
+{% endif %}
+{% endif %} {% if page.github_url or page.demo_url or page.paper_url %}
+{% if page.github_url %}GitHub ↗{% endif %} {% if page.demo_url %}Demo ↗{% endif %} {% if page.paper_url %}Paper ↗{% endif %}
+{% endif %} {% if page.thumbnail %} {{ page.thumbnail_alt | default: page.title | escape }} {% endif %}
+{{ content }}
