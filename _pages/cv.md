@@ -77,7 +77,7 @@ redirect_from:
 
 <table class="cv-table">
   <tr>
-    <td class="cv-date">Jun 2026 – Aug 2026</td>
+    <td class="cv-date">Jun 2026 – Oct 2026</td>
     <td class="cv-content">
       <div class="cv-title">Summer Research Fellowship (SURF)</div>
       <div class="cv-subtitle">Computer Vision Lab, POSTECH</div>
